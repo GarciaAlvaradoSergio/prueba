@@ -24,5 +24,6 @@
             </form>
         @endslot
         @slot('boton')
-        @endcomponent
-    @endsection
+            @slot('fecha')
+            @endcomponent
+        @endsection
