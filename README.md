@@ -15,4 +15,4 @@ Pasos para ejecutar proyecto:
 6.- **php artisan cache:clear**
 
 
-<img src="public/images/Tareas.png">
+<img src="public/images/PruebaT.png">
