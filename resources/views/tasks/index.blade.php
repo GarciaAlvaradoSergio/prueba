@@ -19,13 +19,13 @@
                             <label class="form-check-label" for="firstCheckbox">{{ $task->titulo }}</label>
                             <div class="btn-group btn-group-sm d-grid gap-2 d-md-flex justify-content-md-end" role="group"
                                 aria-label="Small button group">
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                <button type="button" class="btn btn-outline-primary rounded-pill" data-bs-toggle="modal"
                                     data-bs-target="#taskModal{{ $task->id }}">
                                     Ver
                                 </button>
 
                                 <a href="{{ route('tasks.edit', $task->id) }}" type="button"
-                                    class="btn btn-outline-primary btn-sm">Editar</a>
+                                    class="btn btn-outline-primary rounded-pill btn-sm ">Editar</a>
                                 <button type="button"
                                     class="btn
                             @if ($task->status === 'Pendiente') btn-info
