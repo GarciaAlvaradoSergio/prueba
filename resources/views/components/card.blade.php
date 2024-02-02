@@ -10,9 +10,7 @@
                     <p class="card-text">{{ $subtitulo }}</p>
                     {{ $contenido }}
                 </div>
-                <div class="card-footer text-body-secondary">
-                    {{ $fecha }}
-                </div>
+
             </div>
         </div>
     </div>

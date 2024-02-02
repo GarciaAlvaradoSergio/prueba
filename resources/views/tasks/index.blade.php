@@ -65,8 +65,5 @@
                 </div>
             </form>
         @endslot
-        @slot('fecha')
-            <p>Última tarea creada fue el: {{ $task->created_at }}</p>
-        @endslot
     @endcomponent
 @endsection
